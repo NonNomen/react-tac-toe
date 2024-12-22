@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "react-tac-toe",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
