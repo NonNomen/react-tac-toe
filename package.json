@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd ./ui && npm run build && cd ../api && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
