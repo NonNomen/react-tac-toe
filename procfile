@@ -1,0 +1,3 @@
+web: npm start --prefix ./api && 
+npm run build --prefix ./ui &&
+npm run serve --prefix ./ui
