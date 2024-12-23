@@ -2,7 +2,9 @@
   "name": "root",
   "version": "1.0.0",
   "scripts": {
-    "start": "cd ./ui && npm run build && cd ../api && npm start"
+    "start": "npm run build && npm run start-server",
+    "build": "cd ./ui && npm install --force && npm run build",
+    "start-server": "cd ./api && npm install && npm start"
   },
   "author": "",
   "license": "ISC",
