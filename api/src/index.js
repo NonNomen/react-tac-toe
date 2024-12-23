@@ -3,6 +3,7 @@ import path from 'path';
 
 const app = express();
 const __dirname = import.meta.dirname;
+console.log(__dirname);
 
 app.get('/api/test', (req, res) => {
   res.json({ body: 'Hello World!' });
